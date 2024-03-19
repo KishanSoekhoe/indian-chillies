@@ -518,6 +518,7 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
 }
 
 /* formulier en AVG */
@@ -704,6 +705,11 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+    
+    .formulier{
+        width: 170%;
+        
+    }
 
     .avglink_containter {
         grid-template-columns: repeat(1, 1fr);
