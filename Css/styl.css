@@ -195,7 +195,6 @@ footer {
         "geschiedenis onderwerp2 onderwerp3 onderwerp4"
         "video video video video"
         "maker1 maker2";
-    gap: 10px;
     margin-top: 10vh;
     justify-content: center;
     place-items: center;
@@ -278,7 +277,11 @@ footer {
             grid-template-columns: repeat(1, 1fr);
         }
         .iframe {
-           display: inline;
+            place-self: center;
+            width: 53%;
+        }
+        .tekst {
+            gap: 3vh;
         }
     }
 }
@@ -418,6 +421,11 @@ footer {
     .slideshow {
         height: 30vh;
         width: 80vw;
+        margin-top: 3vh;
+        margin-left: 3vh;
+    }
+    .image1 {
+        height: 17vh;
     }
 
 
@@ -428,11 +436,11 @@ footer {
         display: ruby;
     }
 
-    /* .navbar {
-    } */
+    .navbar {
+    }
 
     .image1 {
-        height: 16vh;
+        height: 13vh;
     }
 
     .bestellen,
@@ -461,7 +469,7 @@ footer {
     .slideshow {
         height: 60vh;
         width: 90vw;
-
+        margin-left: -4vh;
     }
 
     .containerr .image_container {
