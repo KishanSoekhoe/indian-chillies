@@ -18,6 +18,8 @@ footer {
     height: 19vh;
 }
 
+/* Logo start */
+
 .image1 {
     grid-area: logo;
     margin-left: 1vh;
@@ -27,22 +29,26 @@ footer {
     transform: scale(1.1);
 }
 
+/* Logo end */
+
+/* navagation start */
 .navbar {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "logo navigatie1";
+    grid-template-areas: "logo .  navigatie1 navigatie2 navigatie3 navigatie4 navigatie5 navigatie6 navigatie7";
     gap: 1vw;
     align-items: center;
 }
+.navbarv2{
+    grid-area: navigatie7;
+}
 
 .Nav ul {
-    margin-right: 2vw;
-    grid-area: navigatie1;
     list-style: none; 
     display: flex;
     flex-direction: row; 
     column-gap: 2vw; 
 }
+
 
 
 
@@ -66,6 +72,9 @@ footer {
     transform: scale(1.4);
 }
 
+/* Navagation end */
+
+/* Homepage */
 
 .content {
     display: grid;
@@ -110,6 +119,9 @@ footer {
 .Bestellen_titel {
     font-size: 30px;
 }
+/* Homepage end */
+
+/* Menu begin */
 
 .containerr {
     position: relative;
@@ -185,6 +197,7 @@ footer {
 
 }
 
+/* Menu end */
 
 /* Omars css */
 .tekst {
@@ -192,33 +205,40 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, auto);
     grid-template-areas: 
-        "geschiedenis onderwerp2 onderwerp3 onderwerp4"
-        "video video video video"
-        "maker1 maker2";
+        "geschiedenis onderwerp2 onderwerp3 onderwerp4";
     margin-top: 10vh;
     justify-content: center;
     place-items: center;
     font-family: "Open Sans", sans-serif;
 }
 
-.iframe {
+.iframe1{
     display: grid;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    justify-content: center;
-    align-items: center; 
-    margin-top: 2vh;
+    grid-template-areas: "video1 video2";
+    margin-top: 3vh;
     margin-bottom: 10vh;
-    font-family: "Open Sans", sans-serif; 
+}
+iframe{
+    margin-left: -6vh;
+    width: 600px;
+    height: 315px;
+}
+.video1{
+    grid-area: video2;
 }
 
 
-.makers {
+
+.makers{
     display: grid;
-    grid-template-columns: repeat(2, 1fr); 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-areas: "maker1 maker2 maker3";
+}
+.managers{
     grid-area: maker2;
-    place-items: center;
-    font-family: "Open Sans", sans-serif; 
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
 }
 
 
@@ -268,18 +288,22 @@ footer {
                 "onderwerp2"
                 "onderwerp3"
                 "onderwerp4"
-                "video"
-                "maker1"
-                "maker2";
         }
     
-        .makers {
-            grid-template-columns: repeat(1, 1fr);
+ 
+        .managers{
+            display: inline;
         }
-        .iframe {
-            place-self: center;
-            width: 53%;
+        
+        
+        .iframe1{
+            grid-template-areas: "video1";
         }
+        iframe{
+            width: 100px;
+            width: 410px;
+        }
+
         .tekst {
             gap: 3vh;
         }
@@ -288,6 +312,7 @@ footer {
 
 /* end omar css */
 
+/* Hamburger menu */
 
 .hamburger_flex {
     display: flex;
@@ -373,6 +398,8 @@ footer {
     justify-content: center;
 }
 
+/* Hamburger end */
+
 /* Kishan, omar mobiel & tablet css */
 
 @media screen and (min-width: 768px) {
@@ -393,7 +420,7 @@ footer {
     }
 
     .content {
-        display: inline;
+        display: ruby;
     }
 
     .Welkom,
@@ -422,7 +449,7 @@ footer {
         height: 30vh;
         width: 80vw;
         margin-top: 3vh;
-        margin-left: 3vh;
+        margin-left: 0vh;
     }
     .image1 {
         height: 17vh;
@@ -431,16 +458,18 @@ footer {
 
 }
 
+/* Tablet end */
+
+/* Mobiel homepage tablet */
+
 @media screen and (min-width: 768px) and (max-width: 1240px) {
     .content {
-        display: ruby;
+        display: inline;
     }
 
-    .navbar {
-    }
 
     .image1 {
-        height: 13vh;
+        height: 10vh;
     }
 
     .bestellen,
@@ -480,8 +509,11 @@ footer {
         display: none;
     }
 
-    /* image voor elk device even groot maken`bij our menu foto */
 }
+
+/* Homepage menu end tablet */
+
+/* Mobile menu and homepage */
 
 @media screen and (max-width: 768px) {
 
@@ -520,6 +552,10 @@ footer {
     }
 
 }
+
+/* Mobile menu and homepage end */
+
+
 
 /* formulier en AVG */
 

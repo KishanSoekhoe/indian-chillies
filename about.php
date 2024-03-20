@@ -71,14 +71,13 @@
                 ex ea commodo consequat.</p>
             </section>
         </section>
-        <section class="iframe">
-            <iframe width="600" height="315"
-            src="https://www.youtube.com/embed/uAeU258LEEQ?si=pnKnkJ2wbfgtfAit"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write;
-            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <section class="iframe1">
+    <article class="video1">
+    <iframe src="https://www.youtube.com/embed/uAeU258LEEQ?si=HkYaOTRnjrH5qo1B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </article>
         </section>
         <section class="makers">
+            <article class="managers">
             <figure>
                 <img src="Images/omar.webp" alt="Foto 1" class="omar" style="width: 250px" height="250px">
                 <figcaption><h4>Omar Umarke</h4></figcaption>
@@ -88,6 +87,7 @@
                 <img src="Images/kishan.webp" alt="Foto 2" class="kishan" style="width: 250px" height="250px">
                 <figcaption><h4>Kishan Soekhoe</h4></figcaption>
                 <figcaption>Head Chef</figcaption>
+                </article>
             </figure>
         </section>
     </main>
