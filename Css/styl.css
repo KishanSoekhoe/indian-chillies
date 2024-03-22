@@ -469,8 +469,14 @@ iframe{
 
 
     .image1 {
-        height: 10vh;
+        height: 17vh;
     }
+    .navbar {   
+        height: 19vh;
+    }
+
+    
+    
 
     .bestellen,
     .Welkom {
