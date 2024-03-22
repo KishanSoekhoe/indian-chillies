@@ -300,8 +300,7 @@ iframe{
             grid-template-areas: "video1";
         }
         iframe{
-            width: 100px;
-            width: 410px;
+            width: 50vh;
         }
 
         .tekst {
