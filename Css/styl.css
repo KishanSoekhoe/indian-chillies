@@ -804,3 +804,78 @@ iframe{
 }
 
 /* einde formulier en AVG */
+
+/* review page */
+
+.review-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.reviewe {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.reviewe h2 {
+    margin-bottom: 20px;
+}
+
+.reviewe form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.reviewe label {
+    margin-bottom: 10px;
+}
+
+.reviewe .review-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.reviewe textarea {
+    resize: vertical;
+    max-height: 200px; 
+    overflow-y: auto;
+}
+
+.button-submit {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button-submit:hover {
+    background-color: #ff1d18;
+    transition: 1s;
+}
+
+.review {
+    width: 100%;
+    margin-top: 20px;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.review p {
+    font-family: "Open Sans", sans-serif;
+    max-height: 200px; 
+    overflow-y: auto;
+}
