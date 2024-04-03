@@ -878,4 +878,5 @@ iframe{
     font-family: "Open Sans", sans-serif;
     max-height: 200px; 
     overflow-y: auto;
+    overflow-wrap: anywhere;
 }
