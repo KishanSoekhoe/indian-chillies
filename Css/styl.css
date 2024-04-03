@@ -719,8 +719,7 @@ iframe{
     font-size: 15px;
     color: white;
     transition: 0.4s;
-    grid-column-start: 3;
-    grid-column-end: 4;
+    margin-top: 1vh;
 }
 .avg_container {
     display: grid;
@@ -747,11 +746,14 @@ iframe{
     grid-column-end: 4;
 }
 
-.avglink_containter {
+.link_container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     place-items: center;
     height: 19vh;
+}
+.avg_link2{
+    display: flex;
+    flex-direction: column;
 }
 
 .avg_link:hover {
