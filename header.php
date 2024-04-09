@@ -9,13 +9,20 @@
             <nav class="Nav">
                 <ul>
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="Our menu.php">Our menu</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Menu</a>
+                        <article class="dropdown-content">
+                            <a href="Our menu.php">Our menu</a>
+                            <a href="#">3 gangen menu</a>
+                        </article>
+                    </li>
                     <li><a href="about.php">About us</a></li>
                     <li><a href="gallerij.php">Gallery</a></li>
                     <li><a href="reserveringformulier.php">Reserveren</a></li>   
                 </ul>
             </nav>
         </article>
+    </section>
         <button class="hamburger">
             <span class="bar"></span>
         </button>
