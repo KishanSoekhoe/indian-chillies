@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -30,6 +29,8 @@
         <li>Chana saag</li>
         <li>Chicken curry</li>
         <li>Poori Chole</li>
+        <li>Chai</li> 
+        <li>Lassi</li> 
       </ul>
     </article>
   </article>
@@ -47,6 +48,8 @@
         <li>Poori Chole</li>
         <li>Palak Paneer</li>
         <li>Muttar Paneer</li>
+        <li>Mango Lassi</li> 
+        <li>Masala Chai</li> 
       </ul>
     </article>
   </article>
@@ -66,7 +69,9 @@
         <li>Chicken Tandoori</li>
         <li>Butter chicken</li>
         <li>Fish pakora</li>
-        <li>Chicken Saag</li>   
+        <li>Chicken Saag</li>  
+        <li>Mango Lassi</li> 
+        <li>Masala Chai</li> 
       </ul>
     </article>
   </article>
