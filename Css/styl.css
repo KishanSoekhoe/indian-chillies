@@ -805,10 +805,6 @@ iframe{
         font-size: 2.5vh;
         margin: 0.5vh;
     }
-
-
-
-
 }
 
 /* einde formulier en AVG */
@@ -888,6 +884,7 @@ iframe{
     overflow-y: auto;
     overflow-wrap: anywhere;
 }
+/* dropdown menu */
 
 .dropbtn {
     cursor: pointer;
@@ -915,7 +912,52 @@ iframe{
     display: block;
   }
   
-  .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+  .catering-menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .catering {
+    margin: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    background-color: #4CAF50;
+ 
+  }
+
+.reserveren_btn{
+    place-self: center;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+  .catering h3  {
+    color: black; 
+    font-size: 3vh; 
+    margin-bottom: 2vh;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  }
+  .price{
+    font-size: 3vh;
+    color: black;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .menu-items ul {
+    color: white;
+    font-size: 2vh;
+    margin-top: 2vh;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .menu-items ul li {
+    padding: 5px 0;
+    margin: 0.1rem 1.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .menu-items ul li:last-child {
+    border-bottom: none;
   }
   

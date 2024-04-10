@@ -13,7 +13,7 @@
                         <a href="#" class="dropbtn">Menu</a>
                         <article class="dropdown-content">
                             <a href="Our menu.php">Our menu</a>
-                            <a href="#">3 gangen menu</a>
+                            <a href="3gangenmenu.php">3 gangen menu</a>
                         </article>
                     </li>
                     <li><a href="about.php">About us</a></li>
@@ -22,7 +22,6 @@
                 </ul>
             </nav>
         </article>
-    </section>
         <button class="hamburger">
             <span class="bar"></span>
         </button>
