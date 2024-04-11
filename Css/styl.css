@@ -925,11 +925,6 @@ iframe{
  
   }
 
-.reserveren_btn{
-    place-self: center;
-    grid-column-start: 2;
-    grid-column-end: 2;
-}
   .catering h3  {
     color: black; 
     font-size: 3vh; 
@@ -960,4 +955,10 @@ iframe{
   .menu-items ul li:last-child {
     border-bottom: none;
   }
-  
+
+  @media screen and (max-width: 768px) {
+
+    .catering-menu{
+        grid-template-columns: 1fr;
+      }
+  }
