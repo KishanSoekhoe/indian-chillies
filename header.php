@@ -30,6 +30,7 @@
                 <ul>
                     <li><a class="mobile_a" href="index.php">Home</a></li>
                     <li><a class="mobile_a" href="Our menu.php">Our menu</a></li>
+                    <li><a class="mobile_a" href="3gangenmenu.php">3 gangen menu</a></li>
                     <li><a class="mobile_a" href="about.php">About us</a></li>
                     <li><a class="mobile_a" href="gallerij.php">Gallery</a></li> 
                     <li><a class="mobile_a" href="reserveringformulier.php">Reserveren</a></li>   

@@ -278,7 +278,7 @@ iframe{
 
 @media screen and (max-width: 768px) {
     .Images_food {
-        display: inline;
+        grid-template-columns: 1fr;
     }
     @media screen and (max-width: 768px) {
         .tekst {
